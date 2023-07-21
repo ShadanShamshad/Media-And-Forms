@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media And Forms Assignment</title>
+</head>
+<body>
+    <h3><u>Q1.Create a simple blog webpage on PW Skills. The webpage must contain at least 1 heading, 1 image, and some information about PW Skills. </u></h3>
+
+        <div>
+            <h1 style="text-align: center;">Physics Wallah</h1>
+            <h2 style="text-align: center;">Full Stack Web Development</h2>
+            <center><img src="./image.jpg"  alt="Photo"></center>
+            <p style="text-align: center; font-size: x-large;">Learn complete web stack programming with React and Node by doing it the way a full-stack professional would do it. Learn how to create whole web apps from start to finish with one of the most trending tech stacks available.</p>
+        </div>
+        <h3><u>Q2. Create a simple webpage with the PW Skills logo and add a title attribute with the value “PW Skills”. 
+            Observe the changes that the title attribute applies to the image.</u></h3>
+            <div>
+                <img src="./Physics_wallah_logo.jpg" alt="PW logo" title="PW Skills" height="100px"  width="100px" >
+            </div>
+            <h3><u>Q3. Create a < audio> tag that has controls to pause, play, and adjust the volume</u></h3>
+            <div>
+                <audio src="./sample-9s.mp3" controls>9s Audio</audio>
+            </div>
+            <h3><u>Q4. Create a < audio> tag that automatically starts playing a song when the page loads. The audio tag should 
+                have controls to pause, play, and adjust the volume. Additionally, the song should be set to loop 
+                continuously until it is paused by the user</u></h3>
+                <div>
+                    <audio src="./Free_Test_Data_100KB_MP3 (1).mp3" 
+                    controls  loop></audio>
+                </div>
+             <h3><u>Q5. Create a < video> tag that automatically starts playing a sunrise video when the page loads. The video tag 
+                should have controls to pause, play, and adjust the volume</u></h3>   
+                <div>
+                    <h4>Sunrise Video</h4>
+                    <video src="./sunrise_-_7127 (1080p).mp4" controls height="500px" width="500px" preload="auto" autoplay ></video>
+                    
+                </div>
+                <h3><u>Q6. Create a similar webpage as we built for assignment question 5. Add a poster attribute to the < video> tag that displays an image of the sunrise</u></h3>
+                <div>
+                    <video src="./sunrise_-_7127 (1080p).mp4" controls poster="./sunrise image.webp" height="500px" width="500px"></video>
+                </div>
+                <h3><u>Q7.Create a similar webpage as we built for assignment question and disable the download option.</u></h3>
+                <div>
+                    <video src="./sunrise_-_7127 (1080p).mp4" controls controlslist="nodownload" height="500px" width="500px"></video>
+                </div>
+                <h3><u>Q8. Create a simple webpage that displays Wikipedia's physics wallah page using an iframe.</u></h3>
+                <div>
+                    <iframe src="https://en.wikipedia.org/wiki/Physics_Wallah" frameborder="5" height="500px" width="500px"></iframe>
+                </div>
+                <h3><u>Q9.Create a feedback form with a field for the user's name, email address, and message.</u></h3>
+                <div>
+                    <form action="">
+                        <label>Name:<input type="text" placeholder="Enter your UserName."></label>
+                        <br>
+                        <br>
+                        <label>Email:<input type="email" placeholder="Enter your email."></label>
+                        <br>
+                        <br>
+                        <label for="address">Address:</label>
+                        <textarea name="" id="address" cols="30" rows="5"></textarea>
+                        <br>
+                        <br>
+                        <label for="message">Feedback:</label>
+                        <textarea name="" id="message" cols="30" rows="5" placeholder="Give your feedback"></textarea>
+        
+                    </form>
+                </div>
+                <h3><u>Q10. Create a registration form with fields for the user's name, email address, password, and a checkbox to 
+                    agree to the terms and conditions. Use the text input type for the name and email fields, the password 
+                    input type for the password field, and the checkbox input type for the terms and conditions field.</u></h3>
+                    <div>
+                        <form action="">
+                            <label>Name:<input type="text" ></label>
+                            <br>
+                            <br>
+                            <label>Email:<input type="email" ></label>
+                            <br>
+                            <br>
+                            <label>Password:<input type="password" ></label>
+                            <br>
+                            <br>
+                            <label for="agree">Terms And Conditions:
+                                <input type="checkbox" name="" id="agree">
+                            </label>
+                            <label for="disagree">
+                                <input type="checkbox" name="" id="disagree">
+                            </label>
+
+                        </form>
+                    </div>
+
+</body>
+</html>
